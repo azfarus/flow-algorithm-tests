@@ -1,0 +1,265 @@
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from WANDB_API_KEY.
+wandb: Currently logged in as: azfarus (azfarus-ndag) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run pfdbid7c
+wandb: Tracking run with wandb version 0.28.1
+wandb: Run data is saved locally in /mnt/data/azfarus/projects/testing-the-flows/wandb/run-20261026_161429-pfdbid7c
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run wfmeanflow
+wandb: ⭐️ View project at https://wandb.ai/azfarus-ndag/meanflow-vs-flow
+wandb: 🚀 View run at https://wandb.ai/azfarus-ndag/meanflow-vs-flow/runs/pfdbid7c
+method=wfmeanflow params=4.23M device=cuda
+[wfmeanflow] step 1/234000 loss=2.4116 raw_mse=2.4051
+[wfmeanflow] step 50/234000 loss=0.5699 raw_mse=0.5691
+[wfmeanflow] step 100/234000 loss=0.3922 raw_mse=0.3921
+[wfmeanflow] step 150/234000 loss=0.3650 raw_mse=0.3649
+[wfmeanflow] step 200/234000 loss=0.3625 raw_mse=0.3623
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0000200.pt
+extracting real InceptionV3 features ...
+[wfmeanflow] eval @ step 200: steps_1: FID=422.35 SSIM=0.003 (1 NFE) | steps_4: FID=421.80 SSIM=0.003 (4 NFE) | steps_16: FID=421.02 SSIM=0.003 (16 NFE)
+[wfmeanflow] step 250/234000 loss=0.3230 raw_mse=0.3229
+[wfmeanflow] step 300/234000 loss=0.3060 raw_mse=0.3060
+[wfmeanflow] step 350/234000 loss=0.2988 raw_mse=0.2988
+[wfmeanflow] step 400/234000 loss=0.3007 raw_mse=0.3006
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0000400.pt
+[wfmeanflow] eval @ step 400: steps_1: FID=431.03 SSIM=0.009 (1 NFE) | steps_4: FID=427.70 SSIM=0.009 (4 NFE) | steps_16: FID=425.50 SSIM=0.009 (16 NFE)
+[wfmeanflow] step 450/234000 loss=0.2777 raw_mse=0.2776
+[wfmeanflow] step 500/234000 loss=0.2647 raw_mse=0.2646
+[wfmeanflow] step 550/234000 loss=0.2856 raw_mse=0.2857
+[wfmeanflow] step 600/234000 loss=0.2671 raw_mse=0.2667
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0000600.pt
+[wfmeanflow] eval @ step 600: steps_1: FID=401.42 SSIM=0.022 (1 NFE) | steps_4: FID=385.16 SSIM=0.023 (4 NFE) | steps_16: FID=379.23 SSIM=0.023 (16 NFE)
+[wfmeanflow] step 650/234000 loss=0.2479 raw_mse=0.2477
+[wfmeanflow] step 700/234000 loss=0.2795 raw_mse=0.2787
+[wfmeanflow] step 750/234000 loss=0.2606 raw_mse=0.2606
+[wfmeanflow] step 800/234000 loss=0.2765 raw_mse=0.2766
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0000800.pt
+[wfmeanflow] eval @ step 800: steps_1: FID=355.22 SSIM=0.041 (1 NFE) | steps_4: FID=315.41 SSIM=0.041 (4 NFE) | steps_16: FID=303.34 SSIM=0.041 (16 NFE)
+[wfmeanflow] step 850/234000 loss=0.2493 raw_mse=0.2493
+[wfmeanflow] step 900/234000 loss=0.2293 raw_mse=0.2291
+[wfmeanflow] step 950/234000 loss=0.2708 raw_mse=0.2707
+[wfmeanflow] step 1000/234000 loss=0.2750 raw_mse=0.2747
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0001000.pt
+[wfmeanflow] eval @ step 1000: steps_1: FID=330.76 SSIM=0.060 (1 NFE) | steps_4: FID=255.01 SSIM=0.057 (4 NFE) | steps_16: FID=244.23 SSIM=0.055 (16 NFE)
+[wfmeanflow] step 1050/234000 loss=0.2313 raw_mse=0.2312
+[wfmeanflow] step 1100/234000 loss=0.2540 raw_mse=0.2541
+[wfmeanflow] step 1150/234000 loss=0.2456 raw_mse=0.2453
+[wfmeanflow] step 1200/234000 loss=0.2451 raw_mse=0.2417
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0001200.pt
+[wfmeanflow] eval @ step 1200: steps_1: FID=316.21 SSIM=0.075 (1 NFE) | steps_4: FID=219.29 SSIM=0.067 (4 NFE) | steps_16: FID=217.73 SSIM=0.064 (16 NFE)
+[wfmeanflow] step 1250/234000 loss=0.2534 raw_mse=0.2533
+[wfmeanflow] step 1300/234000 loss=0.2366 raw_mse=0.2366
+[wfmeanflow] step 1350/234000 loss=0.2640 raw_mse=0.2639
+[wfmeanflow] step 1400/234000 loss=0.2377 raw_mse=0.2377
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0001400.pt
+[wfmeanflow] eval @ step 1400: steps_1: FID=300.89 SSIM=0.085 (1 NFE) | steps_4: FID=189.03 SSIM=0.073 (4 NFE) | steps_16: FID=197.37 SSIM=0.070 (16 NFE)
+[wfmeanflow] step 1450/234000 loss=0.2440 raw_mse=0.2441
+[wfmeanflow] step 1500/234000 loss=0.2422 raw_mse=0.2423
+[wfmeanflow] step 1550/234000 loss=0.2190 raw_mse=0.2187
+[wfmeanflow] step 1600/234000 loss=0.2266 raw_mse=0.2264
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0001600.pt
+[wfmeanflow] eval @ step 1600: steps_1: FID=292.97 SSIM=0.091 (1 NFE) | steps_4: FID=164.15 SSIM=0.077 (4 NFE) | steps_16: FID=176.55 SSIM=0.073 (16 NFE)
+[wfmeanflow] step 1650/234000 loss=0.2328 raw_mse=0.2326
+[wfmeanflow] step 1700/234000 loss=0.2424 raw_mse=0.2425
+[wfmeanflow] step 1750/234000 loss=0.2445 raw_mse=0.2439
+[wfmeanflow] step 1800/234000 loss=0.2311 raw_mse=0.2311
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0001800.pt
+[wfmeanflow] eval @ step 1800: steps_1: FID=291.29 SSIM=0.095 (1 NFE) | steps_4: FID=150.88 SSIM=0.080 (4 NFE) | steps_16: FID=158.36 SSIM=0.076 (16 NFE)
+[wfmeanflow] step 1850/234000 loss=0.2466 raw_mse=0.2463
+[wfmeanflow] step 1900/234000 loss=0.2280 raw_mse=0.2280
+[wfmeanflow] step 1950/234000 loss=0.2551 raw_mse=0.2548
+[wfmeanflow] step 2000/234000 loss=0.2439 raw_mse=0.2439
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0002000.pt
+[wfmeanflow] eval @ step 2000: steps_1: FID=292.34 SSIM=0.097 (1 NFE) | steps_4: FID=150.49 SSIM=0.082 (4 NFE) | steps_16: FID=145.44 SSIM=0.078 (16 NFE)
+[wfmeanflow] step 2050/234000 loss=0.2088 raw_mse=0.2089
+[wfmeanflow] step 2100/234000 loss=0.2149 raw_mse=0.2147
+[wfmeanflow] step 2150/234000 loss=0.2382 raw_mse=0.2382
+[wfmeanflow] step 2200/234000 loss=0.2289 raw_mse=0.2290
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0002200.pt
+[wfmeanflow] eval @ step 2200: steps_1: FID=294.33 SSIM=0.098 (1 NFE) | steps_4: FID=151.99 SSIM=0.083 (4 NFE) | steps_16: FID=135.02 SSIM=0.080 (16 NFE)
+[wfmeanflow] step 2250/234000 loss=0.2317 raw_mse=0.2314
+[wfmeanflow] step 2300/234000 loss=0.2395 raw_mse=0.2393
+[wfmeanflow] step 2350/234000 loss=0.2330 raw_mse=0.2330
+[wfmeanflow] step 2400/234000 loss=0.2439 raw_mse=0.2441
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0002400.pt
+[wfmeanflow] eval @ step 2400: steps_1: FID=296.23 SSIM=0.099 (1 NFE) | steps_4: FID=152.87 SSIM=0.085 (4 NFE) | steps_16: FID=125.12 SSIM=0.082 (16 NFE)
+[wfmeanflow] step 2450/234000 loss=0.2493 raw_mse=0.2490
+[wfmeanflow] step 2500/234000 loss=0.2160 raw_mse=0.2161
+[wfmeanflow] step 2550/234000 loss=0.2220 raw_mse=0.2220
+[wfmeanflow] step 2600/234000 loss=0.2344 raw_mse=0.2341
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0002600.pt
+[wfmeanflow] eval @ step 2600: steps_1: FID=297.73 SSIM=0.099 (1 NFE) | steps_4: FID=152.32 SSIM=0.086 (4 NFE) | steps_16: FID=114.54 SSIM=0.084 (16 NFE)
+[wfmeanflow] step 2650/234000 loss=0.2153 raw_mse=0.2153
+[wfmeanflow] step 2700/234000 loss=0.2538 raw_mse=0.2539
+[wfmeanflow] step 2750/234000 loss=0.2249 raw_mse=0.2242
+[wfmeanflow] step 2800/234000 loss=0.2106 raw_mse=0.2107
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0002800.pt
+[wfmeanflow] eval @ step 2800: steps_1: FID=299.39 SSIM=0.100 (1 NFE) | steps_4: FID=151.17 SSIM=0.087 (4 NFE) | steps_16: FID=103.90 SSIM=0.086 (16 NFE)
+[wfmeanflow] step 2850/234000 loss=0.2267 raw_mse=0.2267
+[wfmeanflow] step 2900/234000 loss=0.2233 raw_mse=0.2230
+[wfmeanflow] step 2950/234000 loss=0.2060 raw_mse=0.2062
+[wfmeanflow] step 3000/234000 loss=0.2581 raw_mse=0.2572
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0003000.pt
+[wfmeanflow] eval @ step 3000: steps_1: FID=301.20 SSIM=0.100 (1 NFE) | steps_4: FID=150.96 SSIM=0.088 (4 NFE) | steps_16: FID=93.89 SSIM=0.088 (16 NFE)
+[wfmeanflow] step 3050/234000 loss=0.2246 raw_mse=0.2247
+[wfmeanflow] step 3100/234000 loss=0.2240 raw_mse=0.2241
+[wfmeanflow] step 3150/234000 loss=0.2141 raw_mse=0.2143
+[wfmeanflow] step 3200/234000 loss=0.2351 raw_mse=0.2352
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0003200.pt
+[wfmeanflow] eval @ step 3200: steps_1: FID=302.81 SSIM=0.101 (1 NFE) | steps_4: FID=150.62 SSIM=0.089 (4 NFE) | steps_16: FID=84.68 SSIM=0.090 (16 NFE)
+[wfmeanflow] step 3250/234000 loss=0.2376 raw_mse=0.2375
+[wfmeanflow] step 3300/234000 loss=0.2323 raw_mse=0.2323
+[wfmeanflow] step 3350/234000 loss=0.2024 raw_mse=0.2023
+[wfmeanflow] step 3400/234000 loss=0.2246 raw_mse=0.2243
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0003400.pt
+[wfmeanflow] eval @ step 3400: steps_1: FID=303.69 SSIM=0.101 (1 NFE) | steps_4: FID=150.45 SSIM=0.090 (4 NFE) | steps_16: FID=76.56 SSIM=0.092 (16 NFE)
+[wfmeanflow] step 3450/234000 loss=0.2213 raw_mse=0.2198
+[wfmeanflow] step 3500/234000 loss=0.2326 raw_mse=0.2328
+[wfmeanflow] step 3550/234000 loss=0.2354 raw_mse=0.2354
+[wfmeanflow] step 3600/234000 loss=0.2264 raw_mse=0.2264
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0003600.pt
+[wfmeanflow] eval @ step 3600: steps_1: FID=304.44 SSIM=0.101 (1 NFE) | steps_4: FID=150.63 SSIM=0.090 (4 NFE) | steps_16: FID=69.32 SSIM=0.094 (16 NFE)
+[wfmeanflow] step 3650/234000 loss=0.2319 raw_mse=0.2318
+[wfmeanflow] step 3700/234000 loss=0.2100 raw_mse=0.2100
+[wfmeanflow] step 3750/234000 loss=0.2499 raw_mse=0.2499
+[wfmeanflow] step 3800/234000 loss=0.2340 raw_mse=0.2339
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0003800.pt
+[wfmeanflow] eval @ step 3800: steps_1: FID=305.13 SSIM=0.101 (1 NFE) | steps_4: FID=150.98 SSIM=0.090 (4 NFE) | steps_16: FID=63.10 SSIM=0.096 (16 NFE)
+[wfmeanflow] step 3850/234000 loss=0.2143 raw_mse=0.2144
+[wfmeanflow] step 3900/234000 loss=0.2040 raw_mse=0.2037
+[wfmeanflow] step 3950/234000 loss=0.2528 raw_mse=0.2529
+[wfmeanflow] step 4000/234000 loss=0.2139 raw_mse=0.2139
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0004000.pt
+[wfmeanflow] eval @ step 4000: steps_1: FID=305.67 SSIM=0.102 (1 NFE) | steps_4: FID=151.29 SSIM=0.090 (4 NFE) | steps_16: FID=58.23 SSIM=0.097 (16 NFE)
+[wfmeanflow] step 4050/234000 loss=0.2375 raw_mse=0.2374
+[wfmeanflow] step 4100/234000 loss=0.2235 raw_mse=0.2236
+[wfmeanflow] step 4150/234000 loss=0.2021 raw_mse=0.2018
+[wfmeanflow] step 4200/234000 loss=0.2126 raw_mse=0.2126
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0004200.pt
+[wfmeanflow] eval @ step 4200: steps_1: FID=306.04 SSIM=0.102 (1 NFE) | steps_4: FID=151.44 SSIM=0.090 (4 NFE) | steps_16: FID=53.74 SSIM=0.099 (16 NFE)
+[wfmeanflow] step 4250/234000 loss=0.2208 raw_mse=0.2208
+[wfmeanflow] step 4300/234000 loss=0.2390 raw_mse=0.2386
+[wfmeanflow] step 4350/234000 loss=0.2092 raw_mse=0.2091
+[wfmeanflow] step 4400/234000 loss=0.2334 raw_mse=0.2335
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0004400.pt
+[wfmeanflow] eval @ step 4400: steps_1: FID=305.98 SSIM=0.102 (1 NFE) | steps_4: FID=151.91 SSIM=0.090 (4 NFE) | steps_16: FID=50.06 SSIM=0.100 (16 NFE)
+[wfmeanflow] step 4450/234000 loss=0.2167 raw_mse=0.2167
+[wfmeanflow] step 4500/234000 loss=0.2132 raw_mse=0.2135
+[wfmeanflow] step 4550/234000 loss=0.2141 raw_mse=0.2140
+[wfmeanflow] step 4600/234000 loss=0.2271 raw_mse=0.2272
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0004600.pt
+[wfmeanflow] eval @ step 4600: steps_1: FID=306.44 SSIM=0.102 (1 NFE) | steps_4: FID=152.51 SSIM=0.091 (4 NFE) | steps_16: FID=46.88 SSIM=0.101 (16 NFE)
+[wfmeanflow] step 4650/234000 loss=0.2127 raw_mse=0.2129
+[wfmeanflow] step 4700/234000 loss=0.2217 raw_mse=0.2215
+[wfmeanflow] step 4750/234000 loss=0.2221 raw_mse=0.2217
+[wfmeanflow] step 4800/234000 loss=0.2237 raw_mse=0.2237
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0004800.pt
+[wfmeanflow] eval @ step 4800: steps_1: FID=306.97 SSIM=0.102 (1 NFE) | steps_4: FID=153.10 SSIM=0.091 (4 NFE) | steps_16: FID=44.36 SSIM=0.102 (16 NFE)
+[wfmeanflow] step 4850/234000 loss=0.2239 raw_mse=0.2240
+[wfmeanflow] step 4900/234000 loss=0.2332 raw_mse=0.2332
+[wfmeanflow] step 4950/234000 loss=0.2307 raw_mse=0.2308
+[wfmeanflow] step 5000/234000 loss=0.2299 raw_mse=0.2296
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0005000.pt
+[wfmeanflow] eval @ step 5000: steps_1: FID=307.77 SSIM=0.103 (1 NFE) | steps_4: FID=153.80 SSIM=0.091 (4 NFE) | steps_16: FID=42.34 SSIM=0.102 (16 NFE)
+[wfmeanflow] step 5050/234000 loss=0.2322 raw_mse=0.2321
+[wfmeanflow] step 5100/234000 loss=0.2187 raw_mse=0.2184
+[wfmeanflow] step 5150/234000 loss=0.2228 raw_mse=0.2230
+[wfmeanflow] step 5200/234000 loss=0.2471 raw_mse=0.2468
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0005200.pt
+[wfmeanflow] eval @ step 5200: steps_1: FID=308.26 SSIM=0.103 (1 NFE) | steps_4: FID=154.12 SSIM=0.091 (4 NFE) | steps_16: FID=40.58 SSIM=0.103 (16 NFE)
+[wfmeanflow] step 5250/234000 loss=0.2069 raw_mse=0.2069
+[wfmeanflow] step 5300/234000 loss=0.1823 raw_mse=0.1824
+[wfmeanflow] step 5350/234000 loss=0.2112 raw_mse=0.2111
+[wfmeanflow] step 5400/234000 loss=0.2245 raw_mse=0.2238
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0005400.pt
+[wfmeanflow] eval @ step 5400: steps_1: FID=308.65 SSIM=0.103 (1 NFE) | steps_4: FID=154.19 SSIM=0.090 (4 NFE) | steps_16: FID=39.05 SSIM=0.103 (16 NFE)
+[wfmeanflow] step 5450/234000 loss=0.2164 raw_mse=0.2163
+[wfmeanflow] step 5500/234000 loss=0.2095 raw_mse=0.2094
+[wfmeanflow] step 5550/234000 loss=0.2258 raw_mse=0.2251
+[wfmeanflow] step 5600/234000 loss=0.2007 raw_mse=0.2001
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0005600.pt
+[wfmeanflow] eval @ step 5600: steps_1: FID=308.94 SSIM=0.103 (1 NFE) | steps_4: FID=154.62 SSIM=0.090 (4 NFE) | steps_16: FID=37.56 SSIM=0.103 (16 NFE)
+[wfmeanflow] step 5650/234000 loss=0.2049 raw_mse=0.2049
+[wfmeanflow] step 5700/234000 loss=0.2207 raw_mse=0.2209
+[wfmeanflow] step 5750/234000 loss=0.2210 raw_mse=0.2210
+[wfmeanflow] step 5800/234000 loss=0.2148 raw_mse=0.2147
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0005800.pt
+[wfmeanflow] eval @ step 5800: steps_1: FID=309.18 SSIM=0.104 (1 NFE) | steps_4: FID=155.30 SSIM=0.090 (4 NFE) | steps_16: FID=36.43 SSIM=0.103 (16 NFE)
+[wfmeanflow] step 5850/234000 loss=0.2298 raw_mse=0.2298
+[wfmeanflow] step 5900/234000 loss=0.2189 raw_mse=0.2187
+[wfmeanflow] step 5950/234000 loss=0.2181 raw_mse=0.2182
+[wfmeanflow] step 6000/234000 loss=0.2288 raw_mse=0.2286
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0006000.pt
+[wfmeanflow] eval @ step 6000: steps_1: FID=309.52 SSIM=0.104 (1 NFE) | steps_4: FID=155.73 SSIM=0.090 (4 NFE) | steps_16: FID=35.43 SSIM=0.103 (16 NFE)
+[wfmeanflow] step 6050/234000 loss=0.2180 raw_mse=0.2182
+[wfmeanflow] step 6100/234000 loss=0.2179 raw_mse=0.2179
+[wfmeanflow] step 6150/234000 loss=0.2314 raw_mse=0.2313
+[wfmeanflow] step 6200/234000 loss=0.2417 raw_mse=0.2419
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0006200.pt
+[wfmeanflow] eval @ step 6200: steps_1: FID=309.74 SSIM=0.104 (1 NFE) | steps_4: FID=156.39 SSIM=0.090 (4 NFE) | steps_16: FID=34.66 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 6250/234000 loss=0.2062 raw_mse=0.2061
+[wfmeanflow] step 6300/234000 loss=0.2165 raw_mse=0.2166
+[wfmeanflow] step 6350/234000 loss=0.2241 raw_mse=0.2241
+[wfmeanflow] step 6400/234000 loss=0.1992 raw_mse=0.1989
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0006400.pt
+[wfmeanflow] eval @ step 6400: steps_1: FID=310.44 SSIM=0.104 (1 NFE) | steps_4: FID=157.33 SSIM=0.090 (4 NFE) | steps_16: FID=34.29 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 6450/234000 loss=0.2110 raw_mse=0.2112
+[wfmeanflow] step 6500/234000 loss=0.2342 raw_mse=0.2344
+[wfmeanflow] step 6550/234000 loss=0.2171 raw_mse=0.2172
+[wfmeanflow] step 6600/234000 loss=0.1990 raw_mse=0.1987
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0006600.pt
+[wfmeanflow] eval @ step 6600: steps_1: FID=310.89 SSIM=0.105 (1 NFE) | steps_4: FID=157.59 SSIM=0.090 (4 NFE) | steps_16: FID=33.63 SSIM=0.103 (16 NFE)
+[wfmeanflow] step 6650/234000 loss=0.2162 raw_mse=0.2161
+[wfmeanflow] step 6700/234000 loss=0.1941 raw_mse=0.1941
+[wfmeanflow] step 6750/234000 loss=0.2446 raw_mse=0.2445
+[wfmeanflow] step 6800/234000 loss=0.2086 raw_mse=0.2087
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0006800.pt
+[wfmeanflow] eval @ step 6800: steps_1: FID=311.32 SSIM=0.105 (1 NFE) | steps_4: FID=158.08 SSIM=0.090 (4 NFE) | steps_16: FID=33.14 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 6850/234000 loss=0.1868 raw_mse=0.1864
+[wfmeanflow] step 6900/234000 loss=0.2252 raw_mse=0.2253
+[wfmeanflow] step 6950/234000 loss=0.2091 raw_mse=0.2090
+[wfmeanflow] step 7000/234000 loss=0.2229 raw_mse=0.2216
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0007000.pt
+[wfmeanflow] eval @ step 7000: steps_1: FID=310.85 SSIM=0.105 (1 NFE) | steps_4: FID=158.05 SSIM=0.089 (4 NFE) | steps_16: FID=32.48 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 7050/234000 loss=0.2058 raw_mse=0.2052
+[wfmeanflow] step 7100/234000 loss=0.2211 raw_mse=0.2213
+[wfmeanflow] step 7150/234000 loss=0.2319 raw_mse=0.2318
+[wfmeanflow] step 7200/234000 loss=0.2398 raw_mse=0.2399
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0007200.pt
+[wfmeanflow] eval @ step 7200: steps_1: FID=310.78 SSIM=0.105 (1 NFE) | steps_4: FID=158.36 SSIM=0.089 (4 NFE) | steps_16: FID=32.21 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 7250/234000 loss=0.2100 raw_mse=0.2102
+[wfmeanflow] step 7300/234000 loss=0.2464 raw_mse=0.2465
+[wfmeanflow] step 7350/234000 loss=0.2099 raw_mse=0.2099
+[wfmeanflow] step 7400/234000 loss=0.2527 raw_mse=0.2528
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0007400.pt
+[wfmeanflow] eval @ step 7400: steps_1: FID=310.44 SSIM=0.105 (1 NFE) | steps_4: FID=158.18 SSIM=0.089 (4 NFE) | steps_16: FID=31.74 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 7450/234000 loss=0.2147 raw_mse=0.2147
+[wfmeanflow] step 7500/234000 loss=0.2164 raw_mse=0.2165
+[wfmeanflow] step 7550/234000 loss=0.2424 raw_mse=0.2425
+[wfmeanflow] step 7600/234000 loss=0.2183 raw_mse=0.2184
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0007600.pt
+[wfmeanflow] eval @ step 7600: steps_1: FID=310.21 SSIM=0.105 (1 NFE) | steps_4: FID=158.37 SSIM=0.089 (4 NFE) | steps_16: FID=31.23 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 7650/234000 loss=0.2265 raw_mse=0.2266
+[wfmeanflow] step 7700/234000 loss=0.2175 raw_mse=0.2175
+[wfmeanflow] step 7750/234000 loss=0.2243 raw_mse=0.2242
+[wfmeanflow] step 7800/234000 loss=0.2111 raw_mse=0.2113
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0007800.pt
+[wfmeanflow] eval @ step 7800: steps_1: FID=310.23 SSIM=0.105 (1 NFE) | steps_4: FID=158.58 SSIM=0.089 (4 NFE) | steps_16: FID=30.54 SSIM=0.104 (16 NFE)
+[wfmeanflow] step 7850/234000 loss=0.1972 raw_mse=0.1973
+[wfmeanflow] step 7900/234000 loss=0.2056 raw_mse=0.2058
+[wfmeanflow] step 7950/234000 loss=0.1998 raw_mse=0.2000
+[wfmeanflow] step 8000/234000 loss=0.1941 raw_mse=0.1935
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0008000.pt
+[wfmeanflow] eval @ step 8000: steps_1: FID=310.10 SSIM=0.106 (1 NFE) | steps_4: FID=158.99 SSIM=0.089 (4 NFE) | steps_16: FID=30.40 SSIM=0.105 (16 NFE)
+[wfmeanflow] step 8050/234000 loss=0.2125 raw_mse=0.2125
+[wfmeanflow] step 8100/234000 loss=0.2018 raw_mse=0.2017
+[wfmeanflow] step 8150/234000 loss=0.2253 raw_mse=0.2253
+[wfmeanflow] step 8200/234000 loss=0.2183 raw_mse=0.2185
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0008200.pt
+[wfmeanflow] eval @ step 8200: steps_1: FID=309.77 SSIM=0.106 (1 NFE) | steps_4: FID=159.12 SSIM=0.089 (4 NFE) | steps_16: FID=30.10 SSIM=0.105 (16 NFE)
+[wfmeanflow] step 8250/234000 loss=0.2078 raw_mse=0.2080
+[wfmeanflow] step 8300/234000 loss=0.2238 raw_mse=0.2224
+[wfmeanflow] step 8350/234000 loss=0.1983 raw_mse=0.1984
+[wfmeanflow] step 8400/234000 loss=0.2021 raw_mse=0.2018
+[wfmeanflow] checkpoint -> ./checkpoints/wfmeanflow/ckpt_step_0008400.pt
+[wfmeanflow] eval @ step 8400: steps_1: FID=309.32 SSIM=0.106 (1 NFE) | steps_4: FID=159.30 SSIM=0.089 (4 NFE) | steps_16: FID=30.06 SSIM=0.105 (16 NFE)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
